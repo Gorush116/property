@@ -7,14 +7,12 @@ public enum StockType { // 계층구조로 활용 가능
 	msft("it", 375) {
 		@Override
 		public int execute(int a, int b) {
-			// TODO Auto-generated method stub
 			return a+b;
 		}
 	},
 	coca("drink", 50) {
 		@Override
 		public int execute(int a, int b) {
-			// TODO Auto-generated method stub
 			return a+b;
 		}
 	};
