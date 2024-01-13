@@ -1,4 +1,4 @@
-package com.example.property.controller;
+package com.example.property.props;
 
 import lombok.Getter;
 import lombok.Setter;

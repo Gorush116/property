@@ -1,6 +1,4 @@
-package com.example.property.controller;
-
-import java.util.Map;
+package com.example.property.props;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

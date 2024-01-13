@@ -2,10 +2,10 @@ package com.example.property.service;
 
 import org.springframework.stereotype.Service;
 
-import com.example.property.controller.StockCommonProperties;
-import com.example.property.controller.StockInfoProperties;
-import com.example.property.controller.StockRealProperties;
-import com.example.property.controller.StockType;
+import com.example.property.props.StockCommonProperties;
+import com.example.property.props.StockInfoProperties;
+import com.example.property.props.StockRealProperties;
+import com.example.property.props.StockType;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,9 +14,9 @@ import lombok.ToString;
 @Service
 public class MsftService { // 반드시 복습할 것!!
 	
-	private final StockInfoProperties sip;		// 해당 객체는 주입받을 수 없음(껍데기밖예 없음)
+	private final StockInfoProperties sip;		// 해당 객체는 주입받을 수 없음(껍데기밖에 없음)
 	
-	private final StockCommonProperties smp;	// 해당 객체는 주입받을 수 없음(껍데기밖예 없음)
+	private final StockCommonProperties smp;	// 해당 객체는 주입받을 수 없음(껍데기밖에 없음)
 	
 	public MsftService(StockRealProperties stockRealProperties) { // 주입받을 수 있는 객체를 찾아서 세팅
 		this.sip = stockRealProperties.getInfoDetail(StockType.msft);

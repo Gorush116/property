@@ -1,8 +1,9 @@
 package com.example.property.controller;
 
-import java.lang.annotation.Retention;
-
-import org.springframework.beans.factory.annotation.Value;
+import com.example.property.props.FtpProperties;
+import com.example.property.props.StockProperties;
+import com.example.property.props.StockRealProperties;
+import com.example.property.props.StockType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
