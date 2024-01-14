@@ -2,7 +2,8 @@ package com.example.property.fninterface;
 @java.lang.FunctionalInterface
 public interface FunctionalInterface {
 
-    // 함수형 인터페이스
+    // 함수형 인터페이스 -> OOP에서 함수형 프로그래밍을 사용하기 위해 도입
+    // 공통 사용로직을 구현시 다른 업무에 대한 이해 및 현재의 ISSUE / 추후 다른 것에 대한 가능성도 열어둔 채로 짜야 함
     /**
      프로그래밍 패러다임
      - 명령형(How) - 절차지향, 객체지향 언어
