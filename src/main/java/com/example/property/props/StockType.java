@@ -5,6 +5,7 @@ import lombok.Getter;
 public enum StockType { // 계층구조로 활용 가능
 	
 	msft("it", 375) {
+		// enum 정의시 override 가능
 		@Override
 		public int execute(int a, int b) {
 			return a+b;

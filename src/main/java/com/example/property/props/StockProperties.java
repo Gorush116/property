@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "stock") // properties를 명시하는 어노테이션
 public class StockProperties {
 
-	private StockDetailProperties msft;
+	private StockDetailProperties msft;	// 타입을 정의해서 원하는 자료형으로 받을 수 있음
 	
 	private StockDetailProperties coca;
 
