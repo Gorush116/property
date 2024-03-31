@@ -35,7 +35,7 @@ public class PropsController {
 	
 	@GetMapping("/props")
 	public void props() {
-////		System.out.println(msftUrl);
+//		System.out.println(msftUrl);
 //		System.out.println(stockProperties.getMsft().getAmt());
 //		
 //		System.out.println(stockProperties.getCoca().getAmt());
